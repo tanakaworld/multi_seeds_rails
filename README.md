@@ -22,18 +22,18 @@ Locate seed files under `db/seeds`.
 The file name will be assigned as the task name.
 
 ```bash
-bundle exec rails db:seed:dummy
-# => run `db/seeds/dummy.rb`
+bundle exec rake db:seed:dummy
+# => will run `db/seeds/dummy.rb`
 
-bundle exec rails db:seed:master
-# => run `db/seeds/master.rb`
+bundle exec rake db:seed:master
+# => will run `db/seeds/master.rb`
 ```
 
 Of course, you can run default seed.
 
 ```bash
-bundle exec rails db:seed
-# => run `db/seeds.rb`
+bundle exec rake db:seed
+# => will run `db/seeds.rb`
 ```
 
 ## License
