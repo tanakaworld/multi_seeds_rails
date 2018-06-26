@@ -14,12 +14,15 @@ Add `db/seeds` directory.
 
 ```bash
 mkdir db/seeds
-touch db/seeds/dummy.rb 
-touch db/seeds/master.rb 
 ```
 
 Locate seed files under `db/seeds`.
 The file name will be assigned as the task name.
+
+```bash
+touch db/seeds/dummy.rb 
+touch db/seeds/master.rb 
+```
 
 ```bash
 bundle exec rake db:seed:dummy
